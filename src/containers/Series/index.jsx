@@ -1,9 +1,10 @@
+import { Container } from "./styles";
+
 function Series() {
   return (
-    <div>
-      <h1>Series</h1>
-      <p>minhas Series</p>
-    </div>
+    <Container>
+      <img src="/src/assets/emConstrucao.jpg" alt="pagina-em-construção" />
+    </Container>
   );
 }
 export default Series;

@@ -1,9 +1,10 @@
+import { Container } from "./styles";
+
 function Movies() {
   return (
-    <div>
-      <h1>Filmes</h1>
-      <p>meus Filmes</p>
-    </div>
+    <Container>
+      <img src="/src/assets/emConstrucao.jpg" alt="pagina-em-construção" />
+    </Container>
   );
 }
 export default Movies;
