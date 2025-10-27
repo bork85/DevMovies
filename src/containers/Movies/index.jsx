@@ -1,9 +1,10 @@
 import { Container } from "./styles";
+import EmConstrucao from "../../assets/emConstrucao.jpg";
 
 function Movies() {
   return (
     <Container>
-      <img src="src/assets/emConstrucao.jpg" alt="pagina-em-construção" />
+      <img src={EmConstrucao} alt="pagina-em-construção" />
     </Container>
   );
 }
